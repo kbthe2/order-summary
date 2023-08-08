@@ -1,0 +1,128 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #E0E8FF;
+}
+
+#container {
+    height: auto;
+    width: 350px;
+    margin-top: 60px;
+    
+}
+
+.card {
+    width: 350px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    box-shadow: 0px 29px 29px -6px rgba(202,212,248,1);
+
+}
+
+.img-hero {
+    width: 350px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    color: #222F54;
+}
+
+.summary {
+    font-size: 16px;
+    color: #9198A9;
+    text-align: center;
+}
+
+.buy {
+    display: flex;
+    background-color: #F8F9FE;
+    padding: 20px;
+    align-items: center;
+    margin: 0 30px;
+    border-radius: 10px;
+}
+
+.music-icon {
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding-right: 80px;
+    color: #212F4B;
+}
+
+.plan-title {
+    font-weight: bolder;
+}
+
+.plan-amount {
+    color: #81879D;
+}
+
+a {
+    color: #49429D;
+    font-size: 12px;
+}
+
+.payment {
+    font-size: 12px;
+    text-align: center;
+    background-color: #382AE1;
+    color: #F6F9FF;
+    padding: 8px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 18px 5px 0px rgba(222,219,248,1);
+}
+
+.cancel {
+    color: #788696;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.attribution {
+    margin-top: 30px;
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.buy a:hover {
+    color: #7F75D7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.payment:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: #2D3553;
+    cursor: pointer;
+}
